@@ -40,7 +40,7 @@ val student = new Student
 
 А теперь пропишем print в теле класса. А другим выведем значение переменной student.name. Как думаете, что будет?
 
-<img src="https://user-images.githubusercontent.com/47192124/169690229-c948f39e-0c2c-4351-ad07-74757acecfe4.png" width="500" height="200" />
+<img src="https://user-images.githubusercontent.com/47192124/169690229-c948f39e-0c2c-4351-ad07-74757acecfe4.png" width="1000" height="500" />
 
 Как видите, значение name печатается последним. Это связано с тем, что при создании экземпляра класса автоматически исполняются все конструкции, описанные внутри класса.
 
@@ -49,7 +49,7 @@ val student = new Student
 
 Ключевой момент, который вам стоит запомнить - это то, как использование ключевого слова this влияет на результат программы. Рассмотрим действие this на примере getId - внимание на результат:
 
-<img src="https://user-images.githubusercontent.com/47192124/169690252-365b9a21-a1c8-40d2-b2a5-cb4d1402104c.png" width="500" height="200" />
+<img src="https://user-images.githubusercontent.com/47192124/169690252-365b9a21-a1c8-40d2-b2a5-cb4d1402104c.png" width="1000" height="500" />
 
 this позволяет компилятору различать параметры класса и параметры метода класса.
 
@@ -57,12 +57,12 @@ this позволяет компилятору различать парамет
 Позволяет иметь функции с одинаковым названием.
 
 Единственное условие - чтобы набор аргументов  и(или) их тип был разный, чтобы компилятор мог понять, вызов какой именнно функции вам требуется.
-<img src="https://user-images.githubusercontent.com/47192124/169690264-122d8517-5e9c-49bc-a3f0-f7e6714aa354.png" width="500" height="200" />
+<img src="https://user-images.githubusercontent.com/47192124/169690264-122d8517-5e9c-49bc-a3f0-f7e6714aa354.png" width="1000" height="500" />
 
 ### Перегруженные конструкторы
 Класс может иметь несколько конструкторов. Это достигается за счет использования def this. Допустим, нам нужен конструктор, который бы по умолчанию использовал 0 в качестве значения id:
 
-<img src="https://user-images.githubusercontent.com/47192124/169690280-e4349291-3d8e-4e6b-b25e-1bc0cc88f854.png" width="500" height="200" />
+<img src="https://user-images.githubusercontent.com/47192124/169690280-e4349291-3d8e-4e6b-b25e-1bc0cc88f854.png" width="1000" height="500" />
 
 
 
