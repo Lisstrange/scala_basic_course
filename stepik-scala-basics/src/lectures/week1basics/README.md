@@ -48,11 +48,11 @@ Note: System.nanoTime() возвращает время выполнения в 
   def someFunc(): Int = 2 * someFunc() + 1
   def callSomeFunc(x: Int, y: => Int) = println(x)
 
-  callSomeFunc(someFunc(), 1)  // StackOverflowError
+  callSomeFunc(someFunc(), 1)  // Выводит ошибку StackOverflowError
 ```
 ```
   def someFunc(): Int = 2 * someFunc() + 1
   def callSomeFunc(x: Int, y: => Int) = println(x)
 
-  callSomeFunc(1, someFunc()) //1
+  callSomeFunc(1, someFunc()) // Получим значение 1
 ```
