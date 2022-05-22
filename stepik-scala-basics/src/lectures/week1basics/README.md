@@ -2,7 +2,7 @@
 
 Вызов по имени(call-by-name) vs Вызов по значению(call-by-value)
 Чтобы увидеть разницу между этими двумя вызовами (кроме того, что рядом с параметром, вызываемым по имени, печатается знак => )давайте поработаем с кодом:
-
+```
   def callByValue(x: Long): Unit = {
     println(s"call by value: x1 = $x")
     println(s"call by value: x2 = $x")
@@ -16,7 +16,7 @@
   callByValue(System.nanoTime())
   callByName(System.nanoTime())
 Note: System.nanoTime() возвращает время выполнения в наносекундах.
-
+```
  
 
 А теперь непосредственно результат выполнения:
